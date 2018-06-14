@@ -1,0 +1,27 @@
+{
+  "name": "coffeetime",
+  "version": "1.0.0",
+  "description": "App to see good coffee shops in the area",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catncradle/coffeetime.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catncradle/coffeetime/issues"
+  },
+  "homepage": "https://github.com/catncradle/coffeetime#readme",
+  "dependencies": {
+    "@google/maps": "^0.4.6",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "rapidapi-connect": "0.0.6",
+    "volleyball": "^1.5.1"
+  }
+}
